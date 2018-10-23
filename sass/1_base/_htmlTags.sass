@@ -1,0 +1,45 @@
+*
+    font-family: $font
+
+a
+    text-decoration: none
+
+body
+    background: $secColor
+    color: $textPrimeColor
+    margin: 0
+
+h1
+    color: $h1Color
+
+h2
+    color: $h2Color
+
+header
+    position: relative
+    z-index: 9999
+    height: 80px
+    background-color: $lightNavColor
+    +widthLimits()
+
+label
+    display: inline-block
+    margin-top: 15px
+    margin-bottom: 5px
+    color: $textPrimeColor
+    font-size: 13px
+    cursor: pointer
+
+
+li
+    line-height: 1.4em
+    font-weight: 700
+    font-size: 14px
+    color: $textPrimeColor
+
+nav
+    position: relative
+    z-index: 9999
+    background-color: $darkNavColor
+    height: 40px
+    +widthLimits()

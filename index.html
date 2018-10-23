@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dr Appointment</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div id="navHeadContainer">
+        <nav>
+            <ul id="navLinks">
+                <li class="navLink"><a href="#">Link1</a></li>
+                <li class="navLink"><a href="#">Link2</a></li>
+                <li class="navLink"><a href="#">Link3</a></li>
+            </ul>
+        </nav>
+        <header>
+            <a href="#">
+                <div id="logo"></div>
+            </a>
+        </header>
+    </div>
+    <div id="container">
+        <div class="textPanel">
+            <h1>Request an appointment</h1>
+            <ul>
+                <li>If this is a medical emergency, please call 911.</li>
+                <li>For urgent visits please note our
+                    <a href="#">immediate care locations</a>
+                </li>
+                <li>By completing this form you consent to your information being disclosed to the physcian and his/her office
+                    staff.
+                </li>
+            </ul>
+            <p>This is a paragraph. Fill with your content.</p>
+            <h2>Patient information</h2>
+            <label for="inputID1">First Name: <span class="astericks">*</span></label>
+            <input class="textInput" type="text" name="name" id="inputID1" class="form-control" required="required">
+            <label for="inputID2">Last Name: <span class="astericks">*</span></label>
+            <input class="textInput" type="text" name="name" id="inputID2" class="form-control" required="required">
+            <label for="inputID3">Email: <span class="astericks">*</span></label>
+            <input class="textInput" type="text" name="name" id="inputID3" class="form-control" required="required">
+            <label for="inputID3">Patient Date of Birth: <span class="astericks">*</span></label>
+            <input class="textInput" type="date" name="bday" id="inputID4" class="form-control" required="required">
+            <input type="submit" name="_action_submit" value="Submit" id="submitButton">
+        </div>
+    </div>
+</body>
+</html>
+
+<!--Reference for UI-->
+<!--https://appointments.nm.org/-->
